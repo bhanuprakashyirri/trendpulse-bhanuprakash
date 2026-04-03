@@ -1,0 +1,142 @@
+[
+  {
+    "title": "LinkedIn is searching your browser extensions",
+    "points": 1666,
+    "author": "digitalWestie",
+    "url": "https://browsergate.eu/",
+    "created_at": "2026-04-02T13:09:09Z"
+  },
+  {
+    "title": "Google releases Gemma 4 open models",
+    "points": 1365,
+    "author": "jeffmcjunkin",
+    "url": "https://deepmind.google/models/gemma/gemma-4/",
+    "created_at": "2026-04-02T16:10:54Z"
+  },
+  {
+    "title": "Sweden goes back to basics, swapping screens for books in the classroom",
+    "points": 810,
+    "author": "novaRom",
+    "url": "https://undark.org/2026/04/01/sweden-schools-books/",
+    "created_at": "2026-04-02T10:50:00Z"
+  },
+  {
+    "title": "Decisions that eroded trust in Azure \u2013 by a former Azure Core engineer",
+    "points": 627,
+    "author": "axelriet",
+    "url": "https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion",
+    "created_at": "2026-04-02T16:00:27Z"
+  },
+  {
+    "title": "Qwen3.6-Plus: Towards real world agents",
+    "points": 498,
+    "author": "pretext",
+    "url": "https://qwen.ai/blog?id=qwen3.6",
+    "created_at": "2026-04-02T14:28:52Z"
+  },
+  {
+    "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+    "points": 496,
+    "author": "AbuAssar",
+    "url": "https://lemonade-server.ai",
+    "created_at": "2026-04-02T11:04:51Z"
+  },
+  {
+    "title": "Tailscale's new macOS home",
+    "points": 423,
+    "author": "tosh",
+    "url": "https://tailscale.com/blog/macos-notch-escape",
+    "created_at": "2026-04-02T18:22:03Z"
+  },
+  {
+    "title": "Artemis computer running two instances of MS outlook; they can't figure out why",
+    "points": 385,
+    "author": "mooreds",
+    "url": "https://bsky.app/profile/nikigrayson.com/post/3miik2wzosk25",
+    "created_at": "2026-04-02T15:08:45Z"
+  },
+  {
+    "title": "Cursor 3",
+    "points": 375,
+    "author": "adamfeldman",
+    "url": "https://cursor.com/blog/cursor-3",
+    "created_at": "2026-04-02T18:13:41Z"
+  },
+  {
+    "title": "Inside Nepal's Fake Rescue Racket",
+    "points": 278,
+    "author": "lode",
+    "url": "https://kathmandupost.com/money/2026/03/27/inside-nepal-s-fake-rescue-racket",
+    "created_at": "2026-04-02T11:40:41Z"
+  },
+  {
+    "title": "Good ideas do not need lots of lies in order to gain public acceptance (2008)",
+    "points": 232,
+    "author": "sedev",
+    "url": "https://blog.danieldavies.com/2004/05/d-squared-digest-one-minute-mba.html",
+    "created_at": "2026-04-02T17:29:03Z"
+  },
+  {
+    "title": "Artemis II's toilet is a moon mission milestone",
+    "points": 219,
+    "author": "1659447091",
+    "url": "https://www.scientificamerican.com/article/artemis-iis-toilet-is-a-moon-mission-milestone/",
+    "created_at": "2026-04-02T02:37:12Z"
+  },
+  {
+    "title": "OpenAI Acquires TBPN",
+    "points": 198,
+    "author": "surprisetalk",
+    "url": "https://openai.com/index/openai-acquires-tbpn/",
+    "created_at": "2026-04-02T17:26:49Z"
+  },
+  {
+    "title": "George Goble has died",
+    "points": 141,
+    "author": "finaard",
+    "url": "https://www.legacy.com/us/obituaries/wlfi/name/george-goble-obituary?id=61144779",
+    "created_at": "2026-04-02T18:21:08Z"
+  },
+  {
+    "title": "C89cc.sh \u2013 standalone C89/ELF64 compiler in pure portable shell",
+    "points": 105,
+    "author": "gaigalas",
+    "url": "https://gist.github.com/alganet/2b89c4368f8d23d033961d8a3deb5c19",
+    "created_at": "2026-04-01T08:41:49Z"
+  },
+  {
+    "title": "Significant progress made on Xbox 360 recompilation",
+    "points": 103,
+    "author": "tetrisgm",
+    "url": "https://readonlymemo.com/rexglue-xbox-360-recompilation-interview/",
+    "created_at": "2026-03-29T12:53:03Z"
+  },
+  {
+    "title": "JSON Canvas Spec (2024)",
+    "points": 101,
+    "author": "tobr",
+    "url": "https://jsoncanvas.org/spec/1.0/",
+    "created_at": "2026-03-30T09:38:38Z"
+  },
+  {
+    "title": "Post Mortem: axios NPM supply chain compromise",
+    "points": 85,
+    "author": "Kyro38",
+    "url": "https://github.com/axios/axios/issues/10636",
+    "created_at": "2026-04-03T00:00:19Z"
+  },
+  {
+    "title": "Show HN: Made a little Artemis II tracker",
+    "points": 84,
+    "author": "codingmoh",
+    "url": "https://artemis-ii-tracker.com/",
+    "created_at": "2026-04-02T23:16:05Z"
+  },
+  {
+    "title": "Magic the Gathering Deck Shuffler",
+    "points": 55,
+    "author": "mooreds",
+    "url": "https://mtg.jessitron.honeydemo.io/",
+    "created_at": "2026-03-30T15:28:45Z"
+  }
+]
