@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import time
 from datetime import datetime
 
 
@@ -14,7 +15,10 @@ CATEGORIES = {
 }
 
 
-# function to find category from title
+# header required by API
+headers = {"User-Agent": "TrendPulse/1.0"}
+
+
 def get_category(title):
     title = title.lower()
 
@@ -26,12 +30,10 @@ def get_category(title):
     return None
 
 
-# get top stories ids
 print("getting story ids...")
 ids_url = "https://hacker-news.firebaseio.com/v0/topstories.json"
-ids = requests.get(ids_url).json()
+ids = requests.get(ids_url, headers=headers).json()
 
-# take first 500
 ids = ids[:500]
 
 
@@ -45,24 +47,20 @@ for story_id in ids:
     url = f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json"
 
     try:
-        res = requests.get(url).json()
-    except:
+        res = requests.get(url, headers=headers).json()
+    except Exception as e:
+        print(f"failed for id {story_id}")
         continue
 
-    # skip if no data
     if not res or "title" not in res:
         continue
 
     title = res.get("title", "")
-
-    # find category
     category = get_category(title)
 
-    # skip if no category matched
     if not category:
         continue
 
-    # max 25 per category
     if category_count[category] >= 25:
         continue
 
@@ -79,18 +77,20 @@ for story_id in ids:
     data.append(item)
     category_count[category] += 1
 
-    # stop if all categories filled
+    # sleep AFTER filling a category (not every request)
+    if category_count[category] == 25:
+        print(f"{category} done, waiting...")
+        time.sleep(2)
+
     if all(v >= 25 for v in category_count.values()):
         break
 
 
-# create data folder if not exists
 os.makedirs("data", exist_ok=True)
 
 date_str = datetime.now().strftime("%Y%m%d")
 filename = f"data/trends_{date_str}.json"
 
-# save file
 with open(filename, "w") as f:
     json.dump(data, f, indent=4)
 
